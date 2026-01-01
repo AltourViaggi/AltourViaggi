@@ -1,0 +1,5 @@
+assets/
+  css/      (metti dentro i file di /css)
+  img/      (metti dentro i file di /img)
+  js/       (metti dentro i file di /js)
+  vendor/   (metti dentro i file di /vendor)
