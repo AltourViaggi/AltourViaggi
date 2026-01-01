@@ -8477,3 +8477,6 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+.btn-getstarted {
+  display: none !important;
+}
