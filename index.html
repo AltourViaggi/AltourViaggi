@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>La mia Landing</title>
+  <meta name="description" content="Descrizione breve e chiara della tua offerta." />
+  <style>
+    body{font-family:system-ui,Arial,sans-serif;margin:0;line-height:1.5}
+    .wrap{max-width:960px;margin:0 auto;padding:48px 20px}
+    .hero{padding:72px 0}
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;border:1px solid #000}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}
+    .card{border:1px solid #ddd;border-radius:12px;padding:16px}
+    footer{border-top:1px solid #eee;margin-top:48px;padding-top:16px;font-size:14px;color:#555}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <strong>Nome Brand</strong>
+    </header>
+
+    <section class="hero">
+      <h1>Titolo: il beneficio principale in 1 frase</h1>
+      <p>Sottotitolo: per chi è e cosa ottiene, senza giri di parole.</p>
+      <p>
+        <a class="btn" href="#contatto">Call to Action</a>
+      </p>
+
+      <div class="grid">
+        <div class="card"><strong>Valore 1</strong><p>Spiegazione breve.</p></div>
+        <div class="card"><strong>Valore 2</strong><p>Spiegazione breve.</p></div>
+        <div class="card"><strong>Valore 3</strong><p>Spiegazione breve.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Come funziona</h2>
+      <ol>
+        <li>Step 1</li>
+        <li>Step 2</li>
+        <li>Step 3</li>
+      </ol>
+    </section>
+
+    <section id="contatto">
+      <h2>Contatto</h2>
+      <p>Scrivimi a: <a href="mailto:info@tuodominio.it">info@tuodominio.it</a></p>
+    </section>
+
+    <footer>
+      <p>© <span id="y"></span> Nome Brand — Privacy / Cookie</p>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
